@@ -10,9 +10,9 @@ function isrenderobj(object: any): boolean
 
 ## Parameters
 
-| Parameter       | Description                            |
-|------------------|----------------------------------------|
-| `#!luau object`   | The value to check for Drawing validity. |
+| Parameter       | Description                              |
+| --------------- | ---------------------------------------- |
+| `#!luau object` | The value to check for Drawing validity. |
 
 ---
 

@@ -14,10 +14,10 @@ function hookfunction<A1..., R1..., A2..., R2...>(functionToHook: (A1...) -> R1.
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `#!luau functionToHook` | The function that will be hooked |
-| `#!luau hook` | The function that will be used as a hook |
+| Parameter               | Description                              |
+| ----------------------- | ---------------------------------------- |
+| `#!luau functionToHook` | The function that will be hooked         |
+| `#!luau hook`           | The function that will be used as a hook |
 
 ---
 

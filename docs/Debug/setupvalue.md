@@ -14,11 +14,11 @@ function debug.setupvalue(func: (...any) -> (...any) | number, index: number, va
 
 ## Parameters
 
-| Parameter        | Description                                                    |
-|------------------|----------------------------------------------------------------|
-| `#!luau func`     | The function (or stack level) whose upvalue to replace.   |
-| `#!luau index`    | The index of the upvalue to be replaced.                      |
-| `#!luau value`    | The new value to assign to the upvalue.                       |
+| Parameter      | Description                                             |
+| -------------- | ------------------------------------------------------- |
+| `#!luau func`  | The function (or stack level) whose upvalue to replace. |
+| `#!luau index` | The index of the upvalue to be replaced.                |
+| `#!luau value` | The new value to assign to the upvalue.                 |
 
 ---
 

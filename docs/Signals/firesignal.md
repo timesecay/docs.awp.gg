@@ -12,10 +12,10 @@ function firesignal(signal: RBXScriptSignal, ...: any?)
 
 ## Parameters
 
-| Parameter         | Description                                            |
-|------------------|--------------------------------------------------------|
-| `#!luau signal`    | The signal whose connections you want to manually fire. |
-| `#!luau ...?`       | The arguments to pass to the connected functions.       |
+| Parameter       | Description                                             |
+| --------------- | ------------------------------------------------------- |
+| `#!luau signal` | The signal whose connections you want to manually fire. |
+| `#!luau ...?`   | The arguments to pass to the connected functions.       |
 
 ---
 

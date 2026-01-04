@@ -10,9 +10,9 @@ function loadfile<A...>(path: string): ((A...) -> any | nil, string?)
 
 ## Parameters
 
-| Parameter       | Description                         |
-|------------------|-------------------------------------|
-| `#!luau path`    | The path to the file to be loaded.  |
+| Parameter     | Description                        |
+| ------------- | ---------------------------------- |
+| `#!luau path` | The path to the file to be loaded. |
 
 ---
 

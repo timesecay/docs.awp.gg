@@ -8,8 +8,8 @@ function isexecutorclosure(func: (...any) -> (...any)): boolean
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
+| Parameter     | Description            |
+| ------------- | ---------------------- |
 | `#!luau func` | The function to check. |
 
 ---

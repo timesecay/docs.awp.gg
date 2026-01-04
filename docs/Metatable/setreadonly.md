@@ -8,10 +8,10 @@ function setreadonly(table: { any }, state: boolean): ()
 
 ## Parameters
 
-| Parameter        | Description                                              |
-|------------------|----------------------------------------------------------|
-| `#!luau table`   | The table whose readonly status you want to modify.     |
-| `#!luau state`   | `#!luau true` to lock the table, `#!luau false` to unlock it.         |
+| Parameter      | Description                                                   |
+| -------------- | ------------------------------------------------------------- |
+| `#!luau table` | The table whose readonly status you want to modify.           |
+| `#!luau state` | `#!luau true` to lock the table, `#!luau false` to unlock it. |
 
 ---
 

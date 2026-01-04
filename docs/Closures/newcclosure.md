@@ -24,7 +24,7 @@ function newcclosure<A..., R...>(functionToWrap: (A...) -> R...): (A...) -> R...
 ## Parameters
 
 | Parameter               | Description               |
-|-------------------------|---------------------------|
+| ----------------------- | ------------------------- |
 | `#!luau functionToWrap` | A function to be wrapped. |
 
 ---

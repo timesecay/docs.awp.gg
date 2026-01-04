@@ -18,9 +18,9 @@ function WebSocket.connect(url: string): WebSocket
 
 ## Parameters
 
-| Parameter     | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `#!luau url`  | A WebSocket URL.|
+| Parameter    | Description      |
+| ------------ | ---------------- |
+| `#!luau url` | A WebSocket URL. |
 
 ---
 
@@ -28,17 +28,17 @@ function WebSocket.connect(url: string): WebSocket
 
 Signals that allow you handle events that occur during the WebSocket's lifetime, such as opening, receiving messages, or closing.
 
-| Event         | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `#!luau OnMessage(message: string): ()`  | Triggered when a message is received over the WebSocket connection.|
-| `#!luau OnClose(): ()`                   | Triggered when the WebSocket connection closes.  |
+| Event                                   | Description                                                         |
+| --------------------------------------- | ------------------------------------------------------------------- |
+| `#!luau OnMessage(message: string): ()` | Triggered when a message is received over the WebSocket connection. |
+| `#!luau OnClose(): ()`                  | Triggered when the WebSocket connection closes.                     |
 
 ## Methods
 
-| Method        | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `#!luau Send(message: string): ()` | Sends a message over the WebSocket connection.    |
-| `#!luau Close(): ()`                     | Closes the WebSocket connection.                 |
+| Method                             | Description                                    |
+| ---------------------------------- | ---------------------------------------------- |
+| `#!luau Send(message: string): ()` | Sends a message over the WebSocket connection. |
+| `#!luau Close(): ()`               | Closes the WebSocket connection.               |
 
 ---
 

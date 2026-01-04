@@ -128,7 +128,7 @@ The parameters must always be neatly described in a function, like so:
 ## Parameters
 
 | Parameter               | Description                         |
-|-------------------------|-------------------------------------|
+| ----------------------- | ----------------------------------- |
 | `#!luau parameter_name` | Short description of the parameter. |
 ```
 

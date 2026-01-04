@@ -12,10 +12,10 @@ function debug.getupvalue(func: (...any) -> (...any) | number, index: number): a
 
 ## Parameters
 
-| Parameter        | Description                                                        |
-|------------------|--------------------------------------------------------------------|
-| `#!luau func`     | The Luau function (or stack level) to retrieve an upvalue from.     |
-| `#!luau index`    | The position of the upvalue.                                       |
+| Parameter      | Description                                                     |
+| -------------- | --------------------------------------------------------------- |
+| `#!luau func`  | The Luau function (or stack level) to retrieve an upvalue from. |
+| `#!luau index` | The position of the upvalue.                                    |
 
 ---
 

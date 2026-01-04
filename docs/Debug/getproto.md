@@ -19,11 +19,11 @@ function debug.getproto(func: (...any) -> (...any) | number, index: number, acti
 
 ## Parameters
 
-| Parameter           | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| `#!luau func`        | The Luau function (or stack level) to extract a proto from.                  |
-| `#!luau index`       | The index of the prototype to return.                                       |
-| `#!luau activated?`  | If `true`, returns a table of currently active functions based on the proto. |
+| Parameter           | Description                                                                  |
+| ------------------- | ---------------------------------------------------------------------------- |
+| `#!luau func`       | The Luau function (or stack level) to extract a proto from.                  |
+| `#!luau index`      | The index of the prototype to return.                                        |
+| `#!luau activated?` | If `true`, returns a table of currently active functions based on the proto. |
 
 ---
 

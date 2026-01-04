@@ -10,9 +10,9 @@ function setthreadidentity(id: number): ()
 
 ## Parameters
 
-| Parameter         | Description                                                      |
-|-------------------|------------------------------------------------------------------|
-| `#!luau id`         | The identity level to set the current thread to. |
+| Parameter   | Description                                      |
+| ----------- | ------------------------------------------------ |
+| `#!luau id` | The identity level to set the current thread to. |
 
 ---
 

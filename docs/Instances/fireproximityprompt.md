@@ -12,9 +12,9 @@ function fireproximityprompt(prompt: ProximityPrompt): ()
 
 ## Parameters
 
-| Parameter       | Description                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| `#!luau prompt`   | The [`#!luau ProximityPrompt`](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt) to trigger. |
+| Parameter       | Description                                                                                                         |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `#!luau prompt` | The [`#!luau ProximityPrompt`](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt) to trigger. |
 
 ---
 

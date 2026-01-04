@@ -14,8 +14,8 @@ function clonefunction<A..., R...>(functionToClone: (A...) -> R...): (A...) -> R
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
+| Parameter                | Description            |
+| ------------------------ | ---------------------- |
 | `#!luau functionToClone` | The function to clone. |
 
 ---

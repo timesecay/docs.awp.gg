@@ -10,9 +10,9 @@ function delfile(path: string): ()
 
 ## Parameters
 
-| Parameter       | Description                |
-|------------------|----------------------------|
-| `#!luau path`    | The path of the file to delete. |
+| Parameter     | Description                     |
+| ------------- | ------------------------------- |
+| `#!luau path` | The path of the file to delete. |
 
 ---
 

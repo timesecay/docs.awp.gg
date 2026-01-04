@@ -17,7 +17,7 @@ function loadstring<A...>(source: string, chunkname: string?): (((A...) -> any) 
 ## Parameters
 
 | Parameter           | Description                        |
-|---------------------|------------------------------------|
+| ------------------- | ---------------------------------- |
 | `#!luau source`     | The source code string to compile. |
 | `#!luau chunkname?` | Custom chunk name.                 |
 

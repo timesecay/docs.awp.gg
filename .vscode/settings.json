@@ -12,10 +12,12 @@
     "tag:yaml.org,2002:python/object/apply:pymdownx.slugs.slugify mapping"
   ],
 
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
   "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
+
   "Lua.diagnostics.globals": ["p"]
 }

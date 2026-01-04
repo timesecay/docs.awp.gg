@@ -10,10 +10,10 @@ function writefile(path: string, data: string): ()
 
 ## Parameters
 
-| Parameter        | Description                            |
-|------------------|----------------------------------------|
-| `#!luau path`    | The file path to write to.             |
-| `#!luau data`    | The string data to write into the file.|
+| Parameter     | Description                             |
+| ------------- | --------------------------------------- |
+| `#!luau path` | The file path to write to.              |
+| `#!luau data` | The string data to write into the file. |
 
 ---
 

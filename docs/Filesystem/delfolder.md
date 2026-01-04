@@ -8,9 +8,9 @@ function delfolder(path: string): ()
 
 ## Parameters
 
-| Parameter       | Description                         |
-|------------------|-------------------------------------|
-| `#!luau path`    | The path of the folder to delete.   |
+| Parameter     | Description                       |
+| ------------- | --------------------------------- |
+| `#!luau path` | The path of the folder to delete. |
 
 ---
 

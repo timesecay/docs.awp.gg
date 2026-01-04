@@ -10,10 +10,10 @@ function getcallbackvalue(object: Instance, property: string): any | nil
 
 ## Parameters
 
-| Parameter           | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| `#!luau object`       | The [`#!luau Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) that owns the callback property. |
-| `#!luau property`     | The name of the callback property to retrieve.         |
+| Parameter         | Description                                                                                                                |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| `#!luau object`   | The [`#!luau Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) that owns the callback property. |
+| `#!luau property` | The name of the callback property to retrieve.                                                                             |
 
 ---
 

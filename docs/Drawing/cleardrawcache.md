@@ -8,8 +8,8 @@ function cleardrawcache(): ()
 
 ## Parameters
 
-| Parameter | Description                      |
-|-----------|----------------------------------|
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
 | *(none)*  | This function takes no parameters. |
 
 ---
