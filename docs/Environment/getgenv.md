@@ -26,7 +26,7 @@ function getgenv(): { any }
 getgenv().dummy_val = "value"
 getfenv().dummy_val_2 = 1
 
-print(dummy_val, getgenv().dummy_val_2) -- Output: value, 1
+print(dummy_val, getgenv().dummy_val_2) -- Output: value, nil
 
 getgenv().dummy_val = "value2"
 dummy_val = nil
