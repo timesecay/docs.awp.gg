@@ -17,8 +17,8 @@ declare getgc:
 
 ## Parameters
 
-| Parameter           | Description                                               |
-|---------------------|-----------------------------------------------------------|
+| Parameter               | Description                                                                              |
+| ----------------------- | ---------------------------------------------------------------------------------------- |
 | `#!luau includeTables?` | If `#!luau true`, also includes tables in the returned list. Defaults to `#!luau false`. |
 
 ---

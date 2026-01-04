@@ -14,11 +14,11 @@ function debug.setstack(level: number, index: number, value: any): ()
 
 ## Parameters
 
-| Parameter         | Description                                                           |
-|-------------------|-----------------------------------------------------------------------|
-| `#!luau level`     | The stack level to target. `1` refers to the current function.         |
-| `#!luau index`     | The index/slot in the stack frame to replace.                         |
-| `#!luau value`     | The new value to assign at that stack slot.                           |
+| Parameter      | Description                                                    |
+| -------------- | -------------------------------------------------------------- |
+| `#!luau level` | The stack level to target. `1` refers to the current function. |
+| `#!luau index` | The index/slot in the stack frame to replace.                  |
+| `#!luau value` | The new value to assign at that stack slot.                    |
 
 ---
 

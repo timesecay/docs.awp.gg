@@ -8,10 +8,10 @@ function getrenderproperty(drawing: Drawing, property: string): any
 
 ## Parameters
 
-| Parameter       | Description                                                  |
-|------------------|--------------------------------------------------------------|
-| `#!luau drawing`   | A valid [`#!luau Drawing`](./README.md) object.              |
-| `#!luau property`  | The name of the property to retrieve.                        |
+| Parameter         | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| `#!luau drawing`  | A valid [`#!luau Drawing`](./README.md) object. |
+| `#!luau property` | The name of the property to retrieve.           |
 
 ---
 

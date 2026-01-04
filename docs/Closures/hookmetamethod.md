@@ -12,11 +12,11 @@ function hookmetamethod(object: { [any]: any } | Instance | userdata, metamethod
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| `#!luau object` | The object which has a metatable. |
-| `#!luau metamethodName` | The name of the metamethod to hook. |
-| `#!luau hook` | The function that will be used as a hook. |
+| Parameter               | Description                               |
+| ----------------------- | ----------------------------------------- |
+| `#!luau object`         | The object which has a metatable.         |
+| `#!luau metamethodName` | The name of the metamethod to hook.       |
+| `#!luau hook`           | The function that will be used as a hook. |
 
 ---
 

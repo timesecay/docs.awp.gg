@@ -8,11 +8,11 @@ function setrenderproperty(drawing: Drawing, property: string, value: any): ()
 
 ## Parameters
 
-| Parameter        | Description                                                  |
-|------------------|--------------------------------------------------------------|
-| `#!luau drawing`   | A valid [`#!luau Drawing`](./README.md) object.              |
-| `#!luau property`  | The name of the property to assign.                          |
-| `#!luau value`     | The value to assign to the specified property.               |
+| Parameter         | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| `#!luau drawing`  | A valid [`#!luau Drawing`](./README.md) object. |
+| `#!luau property` | The name of the property to assign.             |
+| `#!luau value`    | The value to assign to the specified property.  |
 
 ---
 

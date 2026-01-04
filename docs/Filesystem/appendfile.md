@@ -10,10 +10,10 @@ function appendfile(path: string, contents: string): ()
 
 ## Parameters
 
-| Parameter          | Description                             |
-|--------------------|-----------------------------------------|
-| `#!luau path`      | The file path to append to.             |
-| `#!luau contents`  | The string content to add to the file.  |
+| Parameter         | Description                            |
+| ----------------- | -------------------------------------- |
+| `#!luau path`     | The file path to append to.            |
+| `#!luau contents` | The string content to add to the file. |
 
 ---
 

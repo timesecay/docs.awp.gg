@@ -10,9 +10,9 @@ function isfile(path: string): boolean
 
 ## Parameters
 
-| Parameter       | Description                      |
-|------------------|----------------------------------|
-| `#!luau path`    | The path to check.               |
+| Parameter     | Description        |
+| ------------- | ------------------ |
+| `#!luau path` | The path to check. |
 
 ---
 

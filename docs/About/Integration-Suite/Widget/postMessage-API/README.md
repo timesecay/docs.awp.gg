@@ -36,9 +36,9 @@ function postMessage(message: SuncWidgetMessage, targetOrigin: string): void;
 
 ## Parameters
 
-| Parameter           | Description                                                                    |
-| ------------------- | ------------------------------------------------------------------------------ |
-| `#!ts message`      | The structured [message](./MessageType.md) to send to the sUNC widget. |
+| Parameter           | Description                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| `#!ts message`      | The structured [message](./MessageType.md) to send to the sUNC widget.                     |
 | `#!ts targetOrigin` | The expected origin of the iframe, which should always be `#!ts "https://sunc.rubis.app"`. |
 
 ---

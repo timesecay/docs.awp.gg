@@ -8,9 +8,9 @@ function getrawmetatable(object: { any } | userdata): { [any]: any } | nil
 
 ## Parameters
 
-| Parameter        | Description                              |
-|------------------|------------------------------------------|
-| `#!luau object`  | The object whose metatable to retrieve.  |
+| Parameter       | Description                             |
+| --------------- | --------------------------------------- |
+| `#!luau object` | The object whose metatable to retrieve. |
 
 ---
 

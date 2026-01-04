@@ -14,8 +14,8 @@ function cloneref<T>(object: T & Instance): T
 
 ## Parameters
 
-| Parameter     | Description                                       |
-|---------------|---------------------------------------------------|
+| Parameter       | Description                                                                                                               |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `#!luau object` | The [`#!luau Instance`](https://create.roblox.com/docs/reference/engine/classes/Instance) to clone a safe reference from. |
 
 ---

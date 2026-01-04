@@ -8,9 +8,9 @@ function isreadonly(table: { any }): boolean
 
 ## Parameters
 
-| Parameter        | Description                             |
-|------------------|-----------------------------------------|
-| `#!luau table`   | The table to check for readonly status. |
+| Parameter      | Description                             |
+| -------------- | --------------------------------------- |
+| `#!luau table` | The table to check for readonly status. |
 
 ---
 

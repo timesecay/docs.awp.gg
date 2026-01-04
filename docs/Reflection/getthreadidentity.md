@@ -8,9 +8,9 @@ function getthreadidentity(): number
 
 ## Parameters
 
-| Parameter  | Description                        |
-|------------|------------------------------------|
-| *(none)*   | This function takes no parameters. |
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
+| *(none)*  | This function takes no parameters. |
 
 ---
 

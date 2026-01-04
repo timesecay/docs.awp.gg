@@ -10,9 +10,9 @@ function makefolder(path: string): ()
 
 ## Parameters
 
-| Parameter       | Description                          |
-|------------------|--------------------------------------|
-| `#!luau path`    | The folder path to create.           |
+| Parameter     | Description                |
+| ------------- | -------------------------- |
+| `#!luau path` | The folder path to create. |
 
 ---
 

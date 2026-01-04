@@ -15,8 +15,8 @@ function getloadedmodules(): { ModuleScript }
 
 ## Parameters
 
-| Parameter | Description                      |
-|-----------|----------------------------------|
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
 | *(none)*  | This function takes no parameters. |
 
 ---

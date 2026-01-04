@@ -12,9 +12,9 @@ function getconnections(signal: RBXScriptSignal): {Connection}
 
 ## Parameters
 
-| Parameter         | Description                                   |
-|-------------------|-----------------------------------------------|
-| `#!luau signal`     | The signal to inspect for active connections. |
+| Parameter       | Description                                   |
+| --------------- | --------------------------------------------- |
+| `#!luau signal` | The signal to inspect for active connections. |
 
 ---
 

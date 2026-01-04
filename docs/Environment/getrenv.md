@@ -11,8 +11,8 @@ function getrenv(): { any }
 
 ## Parameters
 
-| Parameter | Description                      |
-|-----------|----------------------------------|
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
 | *(none)*  | This function takes no parameters. |
 
 ---

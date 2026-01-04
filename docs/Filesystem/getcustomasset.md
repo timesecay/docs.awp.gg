@@ -10,9 +10,9 @@ function getcustomasset(path: string): string
 
 ## Parameters
 
-| Parameter       | Description                                |
-|------------------|--------------------------------------------|
-| `#!luau path`    | The file path to convert into an asset ID. |
+| Parameter     | Description                                |
+| ------------- | ------------------------------------------ |
+| `#!luau path` | The file path to convert into an asset ID. |
 
 ---
 

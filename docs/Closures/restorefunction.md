@@ -10,9 +10,9 @@ function restorefunction(functionToRestore: (...any) -> (...any)): ()
 
 ## Parameters
 
-| Parameter        | Description                                              |
-|------------------|----------------------------------------------------------|
-| `#!luau functionToRestore`   | The hooked function that you want to restore     |
+| Parameter                  | Description                                  |
+| -------------------------- | -------------------------------------------- |
+| `#!luau functionToRestore` | The hooked function that you want to restore |
 
 ---
 

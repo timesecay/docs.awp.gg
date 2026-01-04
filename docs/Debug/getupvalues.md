@@ -14,9 +14,9 @@ function debug.getupvalues(func: (...any) -> (...any) | number): { any }
 
 ## Parameters
 
-| Parameter        | Description                                                        |
-|------------------|--------------------------------------------------------------------|
-| `#!luau func`     | The Luau function (or stack level) to retrieve upvalues from.       |
+| Parameter     | Description                                                   |
+| ------------- | ------------------------------------------------------------- |
+| `#!luau func` | The Luau function (or stack level) to retrieve upvalues from. |
 
 ---
 

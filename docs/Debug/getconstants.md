@@ -12,9 +12,9 @@ function debug.getconstants(func: (...any) -> (...any) | number): { number | str
 
 ## Parameters
 
-| Parameter       | Description                                                        |
-|------------------|--------------------------------------------------------------------|
-| `#!luau func`    | The Luau function (or stack level) whose constants will be returned.|
+| Parameter     | Description                                                          |
+| ------------- | -------------------------------------------------------------------- |
+| `#!luau func` | The Luau function (or stack level) whose constants will be returned. |
 
 ---
 

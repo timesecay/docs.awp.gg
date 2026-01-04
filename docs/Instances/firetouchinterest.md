@@ -12,11 +12,11 @@ function firetouchinterest(part1: BasePart, part2: BasePart, toggle: boolean | n
 
 ## Parameters
 
-| Parameter      | Description                                                                                  |
-|----------------|----------------------------------------------------------------------------------------------|
-| `#!luau part1`   | The initiating [`#!luau BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart). |
-| `#!luau part2`   | The [`#!luau BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) that should be touched.            |
-| `#!luau toggle`  | Whether to simulate touch start or end. `#!luau true` or `#!luau 0` simulates touch; `#!luau false` or `#!luau 1` simulates un-touch. |
+| Parameter       | Description                                                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `#!luau part1`  | The initiating [`#!luau BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart).                                 |
+| `#!luau part2`  | The [`#!luau BasePart`](https://create.roblox.com/docs/reference/engine/classes/BasePart) that should be touched.                     |
+| `#!luau toggle` | Whether to simulate touch start or end. `#!luau true` or `#!luau 0` simulates touch; `#!luau false` or `#!luau 1` simulates un-touch. |
 
 ---
 

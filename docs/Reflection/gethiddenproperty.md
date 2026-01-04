@@ -14,10 +14,10 @@ function gethiddenproperty(instance: Instance, property_name: string): (any, boo
 
 ## Parameters
 
-| Parameter             | Description                                           |
-|-----------------------|-------------------------------------------------------|
-| `#!luau instance`       | The [instance](https://create.roblox.com/docs/reference/engine/classes/Instance) containing the hidden property.          |
-| `#!luau property_name`  | The name of the property to access.                   |
+| Parameter              | Description                                                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `#!luau instance`      | The [instance](https://create.roblox.com/docs/reference/engine/classes/Instance) containing the hidden property. |
+| `#!luau property_name` | The name of the property to access.                                                                              |
 
 ---
 

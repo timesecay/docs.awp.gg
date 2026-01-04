@@ -10,9 +10,9 @@ function readfile(path: string): string
 
 ## Parameters
 
-| Parameter       | Description                          |
-|------------------|--------------------------------------|
-| `#!luau path`    | The file path to read from.          |
+| Parameter     | Description                 |
+| ------------- | --------------------------- |
+| `#!luau path` | The file path to read from. |
 
 ---
 

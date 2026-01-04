@@ -14,11 +14,11 @@ function sethiddenproperty(instance: Instance, property_name: string, property_v
 
 ## Parameters
 
-| Parameter             | Description                                                  |
-|-----------------------|--------------------------------------------------------------|
-| `#!luau instance`       | The [instance](https://create.roblox.com/docs/reference/engine/classes/Instance) that owns the target property.                  |
-| `#!luau property_name`  | The name of the property to update.                          |
-| `#!luau property_value` | The new value to assign to the property.                     |
+| Parameter               | Description                                                                                                     |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `#!luau instance`       | The [instance](https://create.roblox.com/docs/reference/engine/classes/Instance) that owns the target property. |
+| `#!luau property_name`  | The name of the property to update.                                                                             |
+| `#!luau property_value` | The new value to assign to the property.                                                                        |
 
 ---
 

@@ -8,10 +8,10 @@ function setrawmetatable<T>(object: T & ({ any } | userdata), metatable: { any }
 
 ## Parameters
 
-| Parameter          | Description                                      |
-|--------------------|--------------------------------------------------|
-| `#!luau object`     | The value whose metatable will be overwritten.  |
-| `#!luau metatable`  | The new metatable to assign.                    |
+| Parameter          | Description                                    |
+| ------------------ | ---------------------------------------------- |
+| `#!luau object`    | The value whose metatable will be overwritten. |
+| `#!luau metatable` | The new metatable to assign.                   |
 
 ---
 

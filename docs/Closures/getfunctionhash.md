@@ -20,8 +20,8 @@ function getfunctionhash(functionToHash: (...any) -> (...any)): string
 
 ## Parameters
 
-| Parameter | Description |
-|-----------|-------------|
+| Parameter               | Description                           |
+| ----------------------- | ------------------------------------- |
 | `#!luau functionToHash` | The function to retrieve the hash of. |
 
 ---

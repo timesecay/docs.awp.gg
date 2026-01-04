@@ -10,8 +10,8 @@ function checkcaller(): boolean
 
 ## Parameters
 
-| Parameter | Description        |
-|-----------|--------------------|
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
 | *(none)*  | This function takes no parameters. |
 
 ---

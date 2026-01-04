@@ -14,9 +14,9 @@ function listfiles(path: string): { string }
 
 ## Parameters
 
-| Parameter       | Description                          |
-|------------------|--------------------------------------|
-| `#!luau path`    | The path to the directory to scan.   |
+| Parameter     | Description                        |
+| ------------- | ---------------------------------- |
+| `#!luau path` | The path to the directory to scan. |
 
 ---
 

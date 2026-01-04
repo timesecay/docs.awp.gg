@@ -8,8 +8,8 @@ function gethui(): BasePlayerGui | Folder
 
 ## Parameters
 
-| Parameter | Description                      |
-|-----------|----------------------------------|
+| Parameter | Description                        |
+| --------- | ---------------------------------- |
 | *(none)*  | This function takes no parameters. |
 
 ---
