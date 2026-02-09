@@ -29,8 +29,8 @@ folder.ChildAdded:Connect(function()
 end)
 
 local connection = getconnections(folder.ChildAdded)[1] -- First connection in the list
-print(connection.Function())     -- Output: Triggered
-print(connection:Fire()) -- Same as above, Output: Triggered
+connection.Function()     -- Output: Triggered
+connection:Fire() -- Same as above, Output: Triggered
 print(typeof(connection.Thread)) -- Output: thread
 ```
 
