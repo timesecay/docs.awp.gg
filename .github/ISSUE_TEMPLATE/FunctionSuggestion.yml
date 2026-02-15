@@ -1,0 +1,92 @@
+name: "✨ Suggest a new function"
+description: "Suggest the addition of a new function to the sUNC standard"
+title: "[Function Suggestion]: "
+labels:
+    - New function
+    - Standard Changes
+assignees:
+    - Richy-Z
+    - senS24th
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Thank you for suggesting a new function for the sUNC standard.
+
+              Please complete all required sections below as thoroughly as possible.
+              Before submitting, ensure that the requested functionality cannot already be achieved using existing Luau or sUNC functions.
+
+    - type: checkboxes
+      attributes:
+          label: Existing Functionality Check
+          description: Confirm that you have verified existing functionality.
+          options:
+              - label: I have checked existing Luau and sUNC functions.
+                required: true
+
+    - type: textarea
+      attributes:
+          label: Existing Function Explanation
+          description: |
+              If similar functionality exists, explain why current methods are inefficient or unsatisfactory.
+
+              For example:
+              - Is the current solution too complex?
+              - Is it inefficient in Luau?
+              - Does it require chaining unrelated functions?
+              - Is it inaccessible or unclear?
+
+              If you have not checked yet, please review the documentation:
+              https://docs.sunc.su
+          placeholder: Explain why existing solutions are insufficient...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Rationale
+          description: |
+              What would you expect from a function that resolves the problem described above?
+          placeholder: Describe the expected outcome or behaviour...
+      validations:
+          required: true
+
+    - type: input
+      attributes:
+          label: Proposed Function Name
+          placeholder: e.g. table.deepMerge
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Summary
+          description: A short summary of what the function should do.
+          placeholder: Provide a concise description...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Detailed Description
+          description: |
+              Explain the function's purpose, expected behaviour, edge cases, and any relevant internal considerations if known.
+          placeholder: Provide a thorough explanation of how the function should work...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Example Use Cases
+          description: |
+              Provide one or more example scenarios where this function would be useful.
+
+              Include:
+              - Your specific use case
+              - Other potential general use cases
+          placeholder: |
+              1. ...
+              2. ...
+      validations:
+          required: true

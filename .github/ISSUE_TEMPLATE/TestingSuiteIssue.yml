@@ -1,0 +1,88 @@
+name: "🧪 Testing Script / Behaviour Validation Issue"
+description: "Report issues or suggestions related to the sUNC testing script and behavioural validation"
+title: "[Test Suite]: "
+assignees:
+    - Richy-Z
+    - senS24th
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Use this form for issues related to the **sUNC testing script** and behavioural validation system.
+
+              This includes:
+              - Tests passing when they should fail
+              - Tests failing when they should pass
+              - Behaviour mismatches between standard, documentation, and test suite
+              - Environment/optimisation assumptions in tests
+              - Suggestions to improve test coverage or logic
+
+    - type: dropdown
+      attributes:
+          label: Issue Type
+          options:
+              - Test falsely passes incorrect behaviour
+              - Test falsely fails correct behaviour
+              - Test logic is incomplete or inaccurate
+              - Optimisation/environment mismatch
+              - Testing script feature request
+              - Other
+      validations:
+          required: true
+
+    - type: input
+      attributes:
+          label: Affected Function or Area
+          placeholder: e.g. debug.getconstant, filtergc, constant validation logic
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Issue Summary
+          description: Provide a concise explanation of the issue.
+          placeholder: Briefly describe the problem...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Current Test Behaviour
+          description: |
+              What does the test currently do?
+              Include relevant output or behaviour.
+          placeholder: Describe what the test currently validates or returns...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Expected Behaviour
+          description: |
+              What should the test validate instead?
+              Explain how this aligns with the standard.
+          placeholder: Describe what should happen...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Reproduction Steps
+          description: |
+              Provide steps or code to reproduce the issue within the testing script.
+          placeholder: |
+              1. ...
+              2. ...
+              3. ...
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Additional Context
+          description: |
+              Include optimisation level, executor name and version, environment details, or other relevant context.
+          placeholder: e.g. Running at optimisation level 1 instead of 2...
+      validations:
+          required: false
