@@ -1,0 +1,94 @@
+name: "🔨 Integration Suite-related issues"
+description: "Create an issue related to the sUNC Integration Suite (e.g. Metadata API, Results Widget)"
+title: "[SIS]: "
+labels:
+    - Integration Suite (SIS)
+assignees:
+    - Richy-Z
+    - senS24th
+
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Please fill in the following details clearly and accurately.
+
+              The sUNC Integration Suite (SIS) provides external-facing tools and APIs that allow developers to embed sUNC into their own websites, dashboards, or infrastructure.
+
+              Documentation:
+              https://docs.sunc.su/About/Integration-Suite/
+
+              If this does NOT match what you want to discuss, please create a different issue.
+
+    - type: dropdown
+      attributes:
+          label: Issue Type
+          description: What kind of issue are you reporting?
+          options:
+              - Bug
+              - Feature Request
+              - Documentation Issue
+              - Question
+      validations:
+          required: true
+
+    - type: checkboxes
+      attributes:
+          label: SIS Component Affected
+          description: Select the relevant component(s).
+          options:
+              - label: Metadata API
+              - label: Results Widget
+              - label: sUNC Results via the Rubiš API
+              - label: Other (please describe below)
+
+    - type: textarea
+      attributes:
+          label: Component Description (if "Other" selected)
+          placeholder: Describe the affected component if not listed above...
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Issue Summary
+          description: Provide a short and clear explanation of the issue or feature request.
+          placeholder: Summarise the issue here...
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Reproduction Steps (for bugs)
+          description: |
+              If this is a bug report, list the steps to reproduce the issue.
+
+              If this is not a bug, you may leave this section blank.
+          placeholder: |
+              1. ...
+              2. ...
+              3. ...
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Expected Behaviour (for bugs)
+          placeholder: What should have happened?
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Actual Behaviour (for bugs)
+          placeholder: What actually happened?
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: Additional Notes (optional)
+          description: Anything else that may help maintainers understand or resolve the issue?
+          placeholder: Extra details, screenshots, API responses, environment info, etc.
+      validations:
+          required: false
