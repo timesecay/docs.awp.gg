@@ -1,13 +1,13 @@
-# [sUNC Documentation](https://docs.sunc.su)
+# [AWP Documentation](https://docs.awp.gg)
 
 [![Publish to docs.sunc.su](https://github.com/sUNC-Utilities/docs.sunc.su/actions/workflows/publish.yml/badge.svg)](https://github.com/sUNC-Utilities/docs.sunc.su/actions/workflows/publish.yml)
 
 Welcome to the repository for sUNC's online documentation.
-Documentation is hosted at <https://docs.sunc.su> and it aims to replace the legacy way of simply documenting via markdown in the [old documentation repository](https://github.com/sUNC-Utilities/Global-Functions-Documentation).
+Documentation is hosted at <https://docs.awp.gg> and it aims to replace the legacy way of simply documenting via markdown in the [old documentation repository](https://github.com/sUNC-Utilities/Global-Functions-Documentation).
 
 ## What is sUNC?
 
-Please view the README about sUNC at [docs/About/what-is-sunc.md](./docs/About/what-is-sunc.md) or look at the entire ["About" directory](./docs/About/).
+Please view the README about AWP at [docs/About/what-is-awp.md](./docs/About/what-is-sunc.md) or look at the entire ["About" directory](./docs/About/).
 
 ## Contributing
 
