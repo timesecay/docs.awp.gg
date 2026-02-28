@@ -1,4 +1,4 @@
-name: Publish to docs.sunc.su
+name: Publish to docs.awp.gg
 on:
     push:
         branches:
